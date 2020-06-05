@@ -1,0 +1,18 @@
+.q5-wrapper {
+  background: url("https://cdn.shopify.com/s/files/1/2028/2057/files/extensive-reasearch2.jpg?v=1578557507")
+    no-repeat center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.q5-wrapper .q5-block {
+  width: 100%;
+  height: 100px;
+  margin: 10px;
+  background: #333;
+}
+.q5-block:nth-child(odd) {
+  background-color: #00ff00;
+}
+.q5-wrapper :hover {
+  background: transparent;
+}

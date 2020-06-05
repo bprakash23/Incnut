@@ -1,0 +1,10 @@
+.header {
+  color: #fff;
+  background: #e78471;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.file-name {
+  color: red;
+  font-weight: bold;
+}

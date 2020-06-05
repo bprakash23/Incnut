@@ -1,0 +1,23 @@
+@import "./css/question2.css";
+@import "./css/question3.css";
+@import "./css/question4.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2e9d1;
+  color: #414042;
+}
+.wrapper .description {
+  opacity: 0.6;
+}
+.question {
+  margin-bottom: 60px;
+}
+.question .description {
+  font-size: 18px;
+}
+.variable-name {
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
