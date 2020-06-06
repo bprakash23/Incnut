@@ -3,7 +3,9 @@
     no-repeat center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  height: 300px;
 }
+
 .q5-wrapper .q5-block {
   width: 100%;
   height: 100px;

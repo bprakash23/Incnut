@@ -1,14 +1,10 @@
-// document.getElementById("q8").addEventListener("click", function() {
-//   document.getElementsByClassName("q5-block").style.display = "none";
-// });
+//Answer goes here
 
-// let btn = document.getElementById("q8");
-// let div = document.getElementsByClassName("q5-block");
-
-// btn.addEventListener("click", function() {
-//   if (div.style.display === "none") {
-//     div.style.display = "block";
-//   } else {
-//     div.style.display = "none";
-//   }
-// });
+document.getElementById("q8").addEventListener("click", function() {
+  var dd = document.getElementById("q8");
+  var lenth = dd.getElementsByClassName("q5-block").length;
+  for (var index = 0; index < lenth; index++) {
+    const element = dd.getElementsByClassName("q5-block")[index];
+    element.style.display = "none";
+  }
+});
